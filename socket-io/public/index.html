@@ -1,0 +1,15 @@
+<html>
+<head>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+    <script>
+    const socket = io("ws://localhost:3000");
+
+    socket.on('connect', function () {
+        console.log("socket connected");
+    });
+</script>
+</head>
+<body>
+    <p>Hello World</p>
+</body>
+</html>

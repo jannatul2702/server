@@ -1,0 +1,7 @@
+{
+  "name": "JAVA_NODE.JS",
+  "version": "1.0.0",
+  "dependencies": {
+    "mathjs": "^10.5.1"
+  }
+}
